@@ -40,9 +40,9 @@ public class Herokuapp {
         //Print the page source.
         System.out.println(driver.getPageSource());
         //Enter the email to email field
-        driver.findElement(By.id("username")).sendKeys("Vini");
+        driver.findElement(By.id("username")).sendKeys("tomsmith");
         // //Enter the password field
-        driver.findElement(By.id("password")).sendKeys("amazing123");
+        driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
         //Click on login button
         driver.findElement(By.className("radius")).click();
         //Print the current url.
